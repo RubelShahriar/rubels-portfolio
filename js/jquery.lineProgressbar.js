@@ -18,8 +18,8 @@
                 animation: true,
 
                 // Styling Options
-                fillBackgroundColor: '#3498db',
-                backgroundColor: '#EEEEEE',
+                fillBackgroundColor: '#00ff7f',
+                backgroundColor: '#fff',
                 radius: '0px',
                 height: '10px',
                 width: '100%',

@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/jquery.lineProgressbar.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
     <!-- nav bar part start -->
@@ -54,14 +55,26 @@
       </nav>
       <!-- banner part start -->
       <section id="banner-part">
-          <div class="container">
-            <div class="row">
-                <div class="col-lg-7">
-                    <h1>Hi! i am Rubel</h1>
-                    <h3>I am <span>a Web Designer</span></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, nisi ad ab, nemo ratione, id soluta aspernatur nulla minus sit magnam. Corporis ipsam eaque reprehenderit quod quisquam.</p>
-                    <a href="resume/Rubel_Mia's_Resume.pdf">Download Resume</a>
-                </div>
+          <div id="particles-js">
+            <div class="container">
+              <div class="row main">
+                  <div class="col-lg-10 col-sm-12 col-md-6">
+                      <div class="text">
+                        <h3>Hi There!</h3>
+                        <h1>Hi! i am Rubel</h1>
+                        <!-- =========================================== -->
+                            <div class="typed_wrap">
+                              <h3>I am <span class="typed"></span></h3>
+                            </div>
+                        <!-- =========================================== -->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, nisi ad ab, nemo ratione, id soluta aspernatur nulla minus sit magnam. Corporis ipsam eaque reprehenderit quod quisquam.</p>
+                        <a href="resume/Rubel_Mia's_Resume.pdf">Download Resume</a>
+                      </div>
+                  </div>
+                    <div class="banner-image">
+                      <img src="images/20201003_213300.png"></img>
+                    </div>
+              </div>
             </div>
           </div>
       </section>
@@ -71,7 +84,7 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="image">
-                            <img src="images/about-us.jpeg" alt="profile">
+                            <img src="images/20211128_163928 copy.png" alt="profile">
                         </div>
                     </div>
                     <div class="col-lg-8">
@@ -120,37 +133,37 @@
               <div class="container">
                   <div class="row">
                       <div class="projects-slider">
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-sm-12 col-md-6">
                           <div class="service">
                           <h2>CarLeader</h2>
                           <img src="images/CarLeader.png"></img>
                           </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-sm-12 col-md-6">
                           <div class="service">
                           <h2>financial planning</h2>
                           <img src="images/TripFinder.png"></img>
                           </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-sm-12 col-md-6">
                           <div class="service">
                               <h2>financial planning</h2>
                           <img src="images/Education.png"></img>
                           </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-sm-12 col-md-6">
                             <div class="service">
                           <h2>financial planning</h2>
                           <img src="images/Hunt.png"></img>
                           </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-sm-12 col-md-6">
                             <div class="service">
                           <h2>financial planning</h2>
                           <img src="images/Gyan.png"></img>
                           </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-sm-12 col-md-6">
                             <div class="service">
                           <h2>financial planning</h2>
                           <img src="images/Applio.png"></img>
@@ -171,7 +184,7 @@
                 <div class="personal">
                   <h4>personal skill</h4>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-sm-12 col-md-6">
                     <div class="skill">
                       <h2>HTML5</h2>
                     <div id="jq"></div>
@@ -183,7 +196,7 @@
                     <div id="css3"></div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-sm-12 col-md-6">
                   <div class="skill">
                       <h2>BOOTSTRAP</h2>
                     <div id="css4"></div>
@@ -246,7 +259,7 @@
             </div>
           </section> -->
           <!-- portfolio part start -->
-          <section id="portfolio-part">
+          <!-- <section id="portfolio-part">
             <div class="container">
               <div class="row">
                 <div class="col-lg-12">
@@ -318,7 +331,7 @@
                 </div>
               </div>
             </div>
-          </section>
+          </section> -->
           <!-- features part start -->
           <!-- <section id="feature-part">
             <div class="title">
@@ -451,7 +464,7 @@
                     <input class="middle" type="email" placeholder="Email">
                     <textarea placeholder="Message"></textarea>
                 </div>
-                <div class="button">
+                <div class="button" onclick="preventDefault(e)">
                     <button type="submit" value="send">contact now</button>
                 </div>
               </form>
@@ -486,6 +499,7 @@
     <script src="js/jquery.waypoints.js"></script>
     <script src="js/mixitup.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/particles.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
