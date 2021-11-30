@@ -169,6 +169,6 @@ $(function(){
 });
 
 //type js=============================================//
-function preventDefault(e){
-  e.preventDefault()
+function showAlert(){
+  alert('thank you!')
 }
