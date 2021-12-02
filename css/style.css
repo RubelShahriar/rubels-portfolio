@@ -291,7 +291,7 @@ nav .active::after{
     color: white;
     transition: .4s;
     margin-top: 10px;
-    margin-right: 10px;
+    margin-right: 10px; 
 }
 #about-part .about-text .icon i:hover{
     color: #fff;
@@ -494,6 +494,8 @@ box-shadow: 0px 0px 23px -8px rgba(0,0,0,0.75);
     border: 2px dashed springgreen;
     padding: 20px;
     margin: 0 auto;
+    width: 100px;
+    height: 100px;
 }
 #testimonial-part .testi-slide .text p{
     font-family: 'Poppins', sans-serif;
