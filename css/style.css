@@ -278,7 +278,7 @@ nav .active::after{
     margin-top: 6px;
 }
 #about-part .about-text a:hover{
-    color: white;
+    color: black;
     background: white;
 }
 #about-part .about-text .icon i{

@@ -1,11 +1,11 @@
 $('#jq').LineProgressbar({
-    percentage:50,
+    percentage:80,
     radius: '0px',
     height: '5px',
     fillBackgroundColor: '#270d29'
     });
     $('#html').LineProgressbar({
-    percentage:80,
+    percentage:85,
     radius: '0px',
     height: '5px',
     fillBackgroundColor: '#270d29'
@@ -23,19 +23,19 @@ $('#jq').LineProgressbar({
     fillBackgroundColor: '#270d29'
     });
     $('#css4').LineProgressbar({
-    percentage:50,
+    percentage:90,
     radius: '0px',
     height: '5px',
     fillBackgroundColor: '#270d29'
     });
     $('#css5').LineProgressbar({
-    percentage:65,
+    percentage:80,
     radius: '0px',
     height: '5px',
     fillBackgroundColor: '#270d29'
     });
     $('#css6').LineProgressbar({
-    percentage:40,
+    percentage:85,
     radius: '0px',
     height: '5px',
     fillBackgroundColor: '#270d29'
